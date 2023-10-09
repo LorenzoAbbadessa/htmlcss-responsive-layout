@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+header{
+    color: white;
+    height: 5vh;
+    background-color: #0084FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 15px;   
+}
+.sezione_1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gruppo_sezione1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+    padding: 40px 40px;
+    background-color: #B5DDFF;
+    border-radius: 25px;
+}
+.gruppo_sezione1>i{
+    color: #0084FD;
+    font-size: 100px;
+}
+.gruppo_sezione1>h4{
+    color: grey;
+    text-align: center;
+}
+.gruppo_sezione1>h3{
+    color: #0084FD;
+    text-align: center;
+}
+.sezione_2{
+    color: white;
+    background-color:#9792E4 ;
+    margin-top: 10px;
+    padding: 40px 40px;
+}
+.sezione_2>div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sezione_strategica{
+    padding: 20px;
+    border-radius: 25px;
+    
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#tastino{
+    background-color: #9792E4;
+    width: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 287px;
+    margin: auto;
+}
+.sezione_testimonial{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    text-align: center;
+}
+.gruppo_testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px;
+    padding: 40px 40px;
+    background-color: #9792E4;
+    border-radius: 25px;
+}
+.gruppo_testimonial>img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.gruppo_testimonial>i{
+    padding: 20px;
+}
+.sezione_benefici{
+    background-color: #9792E4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sezione_benefici>div{
+    padding: 40px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 20px;
+}
+.sezione_benefici>h1{
+    text-align: center;
+}
+#Tasto_more>a{
+    background-color: #9792E4;
+    border-radius: 25px;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: white;
+}
+.sezione_about_us{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.sezione_about_us>div{
+    padding: 20px;
+
+}
+#Linkedin>a{
+    background-color: #9792E4;
+    border-radius: 25px;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: white;
+}
+.gruppo_about_us>img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.gruppo_about_us>h1{
+    color: #9792E4;
+}
+
